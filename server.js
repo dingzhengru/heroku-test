@@ -11,7 +11,7 @@ app.use(express.json()) // for parsing application/json
 app.use(cors())
 
 app.get('*', (req, res, next) => {
-  res.send('Royal Gclub API')
+  res.send('Heroku Test')
 })
 
 // 加上 0.0.0.0 取得的 req.ip 就會是 ipv4 的
